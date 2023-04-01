@@ -1,0 +1,12 @@
+@import "/stylesheets/games.css";
+
+#repack_stone_1{
+  font-size: 1.4vw;
+  color: rgb(11, 0, 22);
+  line-height: 3vw;
+  list-style-type: none;
+
+  #game_you{
+    float: right;
+  }
+} 

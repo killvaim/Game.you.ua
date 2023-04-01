@@ -1,0 +1,101 @@
+@import "/stylesheets/animation.css";
+
+body {
+  margin: 0;
+  background-image:url(/images/fone.png);
+  
+  #name {
+    margin-top: 3vw;
+    border-radius: 2vw 2vw 0 0 ;
+    border-bottom: 5px rgb(130, 129, 136) solid;
+
+    h1 {
+      text-shadow: 0 0 7px #876694, 0 0 15px #300644;
+      color: rgb(5, 4, 5);
+      margin: 20px;
+      padding-left: 5vw;
+      padding-top: 1vw;
+      font-size: 2.2vw;
+      font-weight: 800;
+    }
+  } 
+
+  main {
+    margin:0vw 12vw;
+    background-color: rgb(64, 62, 73);
+    border-radius:2vw ;
+
+    #games_1{
+      margin-left: 2vw;
+
+      article{
+        box-shadow:0 0 1px #000000, 0 0 1.25px #000000, 0 0 2.5px #000000, 0 0 5px #000000, 0 0 10px #000000;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        border-radius: 2vw ;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        margin-left: 4vw;
+        width: 18vw;
+        height: 26vw;
+        background-color: rgb(50, 49, 66);
+        transition: .9s;
+
+        &:hover{
+          box-shadow:
+          1px 1px #21162b,
+          2px 2px #21162b,
+          3px 3px #21162b,
+          4px 4px #21162b,
+          5px 5px #21162b,
+          6px 6px #21162b,
+          7px 7px #21162b;
+          -webkit-transform: translateX(-4px);
+          transform: translateX(-4px);
+          width: 24vw;
+          height: 26vw;
+          margin-left: 2vw;
+          margin-right: -2vw;
+        }
+
+        img{
+          height: 23.5vw;
+          width: 44vw;
+          margin-right: 5vw;
+          margin-left: -10vw;
+
+          &:hover{
+            width: 44vw;
+          }
+        }
+
+        a{
+          text-decoration:none;
+
+          &:hover{
+            h1{
+              color: rgb(136, 111, 146);
+              text-shadow:
+              1px 1px #0f0120,
+              2px 2px #0f0120,
+              3px 3px #0f0120;
+              -webkit-transform: translateX(-6px);
+              transform: translateX(-6px);
+            }
+          }
+        }
+          
+        h1{
+          text-decoration:none;
+          font-size: 1.8vw;
+          display: inline;
+          font-weight: bold;
+          color: rgb(0, 0, 0);
+          transition: .8s;
+        }
+      }
+    }
+  }
+}

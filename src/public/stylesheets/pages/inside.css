@@ -1,0 +1,34 @@
+@import "/stylesheets/games.css";
+#repack_1 {
+  font-size: 1.5vw;
+  color: rgb(11, 0, 22);
+  line-height: 3vw;
+  list-style-type: none;
+}
+#repack_1 #xatab {
+  float: left;
+  margin-left: 4vw;
+  margin-bottom: 2vw;
+}
+
+#repack_img {
+  padding-left: 41.5vw;
+}
+#repack_img img {
+  box-shadow: 0 0 1px #000000, 0 0 1.25px #000000, 0 0 2.5px #000000, 0 0 5px #000000, 0 0 10px #000000;
+  margin: 0.4vw 0.4vw;
+  border-radius: 2vw;
+  width: 25vw;
+  height: 15vw;
+}
+
+#repack_inside_2 {
+  font-size: 1.5vw;
+  line-height: 1.8;
+  list-style-type: none;
+}
+#repack_inside_2 #mehaniki {
+  float: right;
+  font-size: 1.6vw;
+  padding-right: 3vw;
+}/*# sourceMappingURL=inside.css.map */

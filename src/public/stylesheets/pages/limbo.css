@@ -1,0 +1,12 @@
+@import "/stylesheets/games.css";
+#torrent {
+  font-size: 1.4vw;
+  color: rgb(11, 0, 22);
+  line-height: 3vw;
+  list-style-type: none;
+}
+#torrent #game_you_2 {
+  float: right;
+  font-size: 1.6vw;
+  padding-right: 2vw;
+}/*# sourceMappingURL=limbo.css.map */

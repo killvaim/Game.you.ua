@@ -1,0 +1,70 @@
+@import "/stylesheets/animation.css";
+
+body {
+  margin: 0;
+  background-image:url(/images/fone.png);
+  
+  #name {
+    margin-top: 3vw;
+    border-radius: 2vw 2vw 0 0 ;
+    border-bottom: 5px rgb(130, 129, 136) solid;
+
+    h1 {
+      text-shadow: 0 0 7px #876694, 0 0 15px #300644;
+      color: rgb(0, 0, 0);
+      margin: 20px;
+      padding-left: 5vw;
+      padding-top: 1vw;
+      font-size: 2.2vw;
+      font-weight: 800;
+    }
+  } 
+
+  main {
+    margin:0vw 12vw;
+    background-color: rgb(64, 62, 73);
+    border-radius:2vw ;
+
+    #games{
+      article{
+        box-shadow:0 0 1px #000000, 0 0 1.25px #000000, 0 0 2.5px #000000, 0 0 5px #000000, 0 0 10px #000000;
+        overflow: hidden;
+        border-radius: 2vw ;
+        text-align: center;
+        margin:2vw 2.8vw;
+        display: inline-block;
+        width: 19vw;
+        background-color: rgb(50, 49, 66);
+
+        img{
+          width: 19vw;
+        }
+
+        a{
+          text-decoration:none;
+
+          &:hover{
+            h1{
+              color: rgb(136, 111, 146);
+              text-shadow:
+              1px 1px #0f0120,
+              2px 2px #0f0120,
+              3px 3px #0f0120;
+              -webkit-transform: translateX(-6px);
+              transform: translateX(-6px);
+            }
+          }
+        }
+        
+        h1{
+          text-decoration:none;
+          font-size: 1.8vw;
+          display: inline;
+          font-weight: bold;
+          color: rgb(0, 0, 0);
+          transition: .8s;
+        }
+      }   
+    }
+  }
+}    

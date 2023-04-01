@@ -1,0 +1,49 @@
+@import "/stylesheets/games.css";
+
+#information {
+
+  #repack_1 {
+    float: left;
+    margin-left: 2.5vw;
+    font-size: 1.5vw;
+    color: rgb(11, 0, 22);
+    line-height: 3vw;
+    list-style-type: none;
+  } 
+
+  #repack_2 {
+    float: right;
+    font-size: 1.5vw;
+    line-height: 3vw;
+    list-style-type: none;
+
+    #mehaniki{
+      float: right;
+      padding-right: 2.5vw;
+    }
+  }
+  
+  #repack_img {
+    padding-left: 41.5vw;
+
+    img{
+      box-shadow:0 0 1px #000000, 0 0 1.25px #000000, 0 0 2.5px #000000, 0 0 5px #000000, 0 0 10px #000000;
+      margin: 2vw  0.4vw;
+      border-radius:2vw;
+      width: 22vw;
+      height: 12vw;
+    }
+  }
+
+  #repack_3 {
+    margin: 0%;
+    list-style-type: none;
+
+    #gog {
+      float: right;
+      margin: 0vw -1vw;
+      line-height: 1.8;
+      font-size: 1.5vw;
+    }
+  }
+}

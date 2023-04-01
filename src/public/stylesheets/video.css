@@ -1,0 +1,44 @@
+@import "/stylesheets/animation.css";
+body {
+  margin: 0;
+  background-image: url(/images/fone.png);
+}
+body #name {
+  margin-top: 3vw;
+  border-radius: 2vw 2vw 0 0;
+  border-bottom: 5px rgb(130, 129, 136) solid;
+}
+body #name h1 {
+  text-shadow: 0 0 7px #876694, 0 0 15px #300644;
+  color: rgb(0, 0, 0);
+  margin: 20px;
+  padding-left: 4vw;
+  padding-top: 1vw;
+  font-size: 2.3vw;
+  font-weight: 800;
+}
+body main {
+  margin: 0vw 12vw;
+  background-color: rgb(64, 62, 73);
+  border-radius: 2vw;
+}
+body main #video {
+  padding-bottom: 2vw;
+}
+body main article {
+  margin-top: 2vw;
+  margin-left: 5vw;
+  display: inline-block;
+}
+body main iframe {
+  display: flex;
+  margin: 0%;
+  box-shadow: 0 0 1px #000000, 0 0 1.25px #000000, 0 0 2.5px #000000, 0 0 5px #000000, 0 0 10px #000000;
+  border-radius: 2vw;
+  width: 30vw;
+  height: 15vw;
+  transition: 0.4s;
+}
+body main iframe:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=video.css.map */

@@ -1,0 +1,449 @@
+@media only screen and (max-width: 1440px) {
+  body footer {
+    width: 100%;
+  }
+  body footer #footer-content #footer-bottom {
+    width: 98.5%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  body nav #logo img {
+    height: 8vw;
+    width: 8vw;
+  }
+  body nav #logo h1 {
+    font-size: 3vw;
+  }
+  body nav ul a {
+    font-size: 2vw;
+  }
+  body footer {
+    width: 100%;
+  }
+  body footer #footer-content #footer-bottom {
+    width: 98%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body footer {
+    width: 100%;
+  }
+  body footer #footer-content #footer-bottom {
+    width: 97%;
+  }
+  body nav #logo img {
+    height: 9vw;
+    width: 9vw;
+  }
+  body nav #logo h1 {
+    font-size: 4vw;
+  }
+  body nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+  }
+  body nav ul a {
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  body main.main {
+    margin: 0vw 5vw;
+  }
+  body main.main #name h1 {
+    font-size: 3.5vw;
+    margin-bottom: 1vw;
+  }
+  body main.main #games_1 article {
+    width: 24vw;
+  }
+  body main.main #games_1 img {
+    height: 22.5vw;
+  }
+  body main.main #games_1 h1 {
+    font-size: 2.5vw;
+  }
+  body main.main #video article {
+    margin-left: 3vw;
+    margin-top: 3vw;
+  }
+  body main.main #video article iframe {
+    width: 40vw;
+    height: 26vw;
+  }
+  body main.main #info h3 {
+    font-size: 2.9vw;
+    line-height: 4vw;
+  }
+  body main.main #info article {
+    width: 18.4vw;
+    height: 10vw;
+  }
+  body main.main #info article img {
+    margin-left: 4vw;
+    width: 10vw;
+    height: 8vw;
+  }
+  body main.main #info article h2 {
+    font-size: 2.1vw;
+  }
+  body main.main #games article {
+    width: 35vw;
+    margin-left: 5.5vw;
+  }
+  body main.main #games article img {
+    width: 35vw;
+  }
+  body main.main #games h1 {
+    font-size: 3vw;
+  }
+  body main.main article img {
+    width: 86vw;
+  }
+  body main.main #information {
+    font-size: 2.2vw;
+  }
+  body main.main #information h1 {
+    font-size: 2.8vw;
+  }
+  body main.main #information #system {
+    font-size: 2.2vw;
+    line-height: 4.7vw;
+  }
+  body main.main #information #system img {
+    height: 35vw;
+    width: 26vw;
+  }
+  body main.main #information #image1 {
+    margin: 1vw 0.8vw;
+  }
+  body main.main #information #image1 img {
+    width: 40vw;
+  }
+  body main.main #information button a {
+    font-size: 3vw;
+  }
+  body main.main #information #download {
+    font-size: 2.2vw;
+    line-height: 3vw;
+    padding: 1vw 1vw;
+    width: 17vw;
+    height: 5vw;
+    border-radius: 4vw;
+  }
+  body main.main #information #repack_img {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+  body main.main #information #repack_img img {
+    margin-left: 9vw;
+    width: 29vw;
+    height: 16vw;
+  }
+  body main.main #information #repack_1, body main.main #information #repack_2 {
+    margin: 0vw;
+    width: 40vw;
+    font-size: 2vw;
+    display: inline-block;
+  }
+  body main.main #information #repack_1 h2, body main.main #information #repack_2 h2 {
+    margin-top: 3vw;
+    font-size: 2.4vw;
+  }
+  body main.main #information #repack_dead_2, body main.main #information #repack_dont_1, body main.main #information #repack_oxg_1, body main.main #information #repack_stone_1, body main.main #information #repack_60s_1, body main.main #information #how_to_download, body main.main #information #repack_inside_2, body main.main #information #torrent {
+    font-size: 2.2vw;
+    line-height: 4.2vw;
+  }
+  body main.main #information #repack_dead_2 h2, body main.main #information #repack_dont_1 h2, body main.main #information #repack_oxg_1 h2, body main.main #information #repack_stone_1 h2, body main.main #information #repack_60s_1 h2, body main.main #information #how_to_download h2, body main.main #information #repack_inside_2 h2, body main.main #information #torrent h2 {
+    margin-top: 3vw;
+    font-size: 2.5vw;
+  }
+  body main.main #information #repack_dead_2 #game_you_1 h2, body main.main #information #repack_dead_2 #mehaniki h2, body main.main #information #repack_dead_2 #game_you_2 h2, body main.main #information #repack_dont_1 #game_you_1 h2, body main.main #information #repack_dont_1 #mehaniki h2, body main.main #information #repack_dont_1 #game_you_2 h2, body main.main #information #repack_oxg_1 #game_you_1 h2, body main.main #information #repack_oxg_1 #mehaniki h2, body main.main #information #repack_oxg_1 #game_you_2 h2, body main.main #information #repack_stone_1 #game_you_1 h2, body main.main #information #repack_stone_1 #mehaniki h2, body main.main #information #repack_stone_1 #game_you_2 h2, body main.main #information #repack_60s_1 #game_you_1 h2, body main.main #information #repack_60s_1 #mehaniki h2, body main.main #information #repack_60s_1 #game_you_2 h2, body main.main #information #how_to_download #game_you_1 h2, body main.main #information #how_to_download #mehaniki h2, body main.main #information #how_to_download #game_you_2 h2, body main.main #information #repack_inside_2 #game_you_1 h2, body main.main #information #repack_inside_2 #mehaniki h2, body main.main #information #repack_inside_2 #game_you_2 h2, body main.main #information #torrent #game_you_1 h2, body main.main #information #torrent #mehaniki h2, body main.main #information #torrent #game_you_2 h2 {
+    font-size: 2.8vw;
+  }
+  body main.main #information #repack_dead_2 #game_you_1 li, body main.main #information #repack_dead_2 #mehaniki li, body main.main #information #repack_dead_2 #game_you_2 li, body main.main #information #repack_dont_1 #game_you_1 li, body main.main #information #repack_dont_1 #mehaniki li, body main.main #information #repack_dont_1 #game_you_2 li, body main.main #information #repack_oxg_1 #game_you_1 li, body main.main #information #repack_oxg_1 #mehaniki li, body main.main #information #repack_oxg_1 #game_you_2 li, body main.main #information #repack_stone_1 #game_you_1 li, body main.main #information #repack_stone_1 #mehaniki li, body main.main #information #repack_stone_1 #game_you_2 li, body main.main #information #repack_60s_1 #game_you_1 li, body main.main #information #repack_60s_1 #mehaniki li, body main.main #information #repack_60s_1 #game_you_2 li, body main.main #information #how_to_download #game_you_1 li, body main.main #information #how_to_download #mehaniki li, body main.main #information #how_to_download #game_you_2 li, body main.main #information #repack_inside_2 #game_you_1 li, body main.main #information #repack_inside_2 #mehaniki li, body main.main #information #repack_inside_2 #game_you_2 li, body main.main #information #torrent #game_you_1 li, body main.main #information #torrent #mehaniki li, body main.main #information #torrent #game_you_2 li {
+    font-size: 2.7vw;
+  }
+  body main.main #information #repack_3 h2 {
+    font-size: 2.6vw;
+  }
+  body main.main #information #repack_3 #gog {
+    font-size: 2.4vw;
+  }
+  body main.main #information #next {
+    padding-left: 1vw;
+  }
+  body main.main #information #next img {
+    display: inline-flex;
+    width: 35vw;
+  }
+  body main.main #information #trailer iframe {
+    width: 40vw;
+    height: 40vw;
+  }
+  body main.main #information #trailer h4 {
+    margin-top: 3vw;
+    font-size: 2.6vw;
+  }
+  body main.main #information h6 {
+    padding-right: 13vw;
+    font-size: 2.6vw;
+  }
+}
+@media only screen and (max-width: 567px) {
+  body header {
+    width: 99vw;
+  }
+  body header nav #logo img {
+    height: 20vw;
+    width: 20vw;
+  }
+  body header nav #logo h1 {
+    margin-top: 8vw;
+    font-size: 6.5vw;
+  }
+  body header nav ul {
+    display: inline-block;
+    margin-left: 5vw;
+    text-align: center;
+  }
+  body header nav ul a {
+    line-height: 6vw;
+    padding-top: 5vw;
+    font-size: 5vw;
+  }
+  body main.main {
+    margin-left: 10vw;
+    border-radius: 6vw;
+    margin-right: -2vw;
+  }
+  body main.main #name h1 {
+    padding-left: 0vw;
+    text-align: center;
+    font-size: 7vw;
+    line-height: 11vw;
+  }
+  body main.main #games article {
+    margin: 4vw 3vw;
+    width: 86vw;
+    height: 52vw;
+    border-radius: 4vw;
+  }
+  body main.main #games article img {
+    width: 86vw;
+    height: 42vw;
+  }
+  body main.main #games h1 {
+    font-size: 7vw;
+  }
+  body footer {
+    width: 108.9%;
+  }
+  body footer #footer-content #socials {
+    margin-left: -10vw;
+  }
+  body footer #footer-content #socials li img {
+    width: 20px;
+    height: 20px;
+  }
+  body footer #footer-content #footer-bottom {
+    width: 94.5%;
+  }
+  body footer #footer-content #footer-menu ul li #popup.popup {
+    margin-top: -10vw;
+  }
+  body footer #footer-content #footer-menu ul li #popup.popup h6 {
+    border-radius: 4vw;
+    font-size: 4.2vw;
+    width: 32vw;
+  }
+}
+@media only screen and (max-width: 567px) {
+  body footer {
+    width: 108.9vw;
+  }
+  body footer #footer-content #socials {
+    margin-left: -10vw;
+  }
+  body footer #footer-content #socials li img {
+    width: 20px;
+    height: 20px;
+  }
+  body footer #footer-content #footer-bottom {
+    width: 94.4%;
+  }
+  body footer #footer-content #footer-menu ul li #popup.popup {
+    margin-top: -14vw;
+  }
+  body footer #footer-content #footer-menu ul li #popup.popup h6 {
+    border-radius: 4vw;
+    font-size: 5vw;
+    width: 42vw;
+  }
+  body main.main {
+    margin-left: 7vw;
+    border-radius: 6vw;
+    margin-right: 0vw;
+  }
+  body main.main #name h1 {
+    padding-left: 0vw;
+    text-align: center;
+    font-size: 9vw;
+    line-height: 11vw;
+  }
+  body main.main #games_1 {
+    margin-top: 3vw;
+  }
+  body main.main #games_1 article {
+    border-radius: 4vw;
+    margin-top: 4vw;
+    width: 82vw;
+    height: 65vw;
+  }
+  body main.main #games_1 article:hover {
+    width: 86vw;
+    height: 65vw;
+  }
+  body main.main #games_1 img {
+    width: 96vw;
+    height: 55vw;
+  }
+  body main.main #games_1 img:hover {
+    width: 96vw;
+  }
+  body main.main #games_1 h1 {
+    font-size: 7vw;
+  }
+  body main.main #video {
+    margin-top: 6vw;
+  }
+  body main.main #video article {
+    margin-left: 3vw;
+    margin-top: 3vw;
+  }
+  body main.main #video article iframe {
+    border-radius: 4vw;
+    width: 87vw;
+    height: 54vw;
+  }
+  body main.main #info h3 {
+    font-size: 8vw;
+    line-height: 10vw;
+  }
+  body main.main #info article {
+    margin-left: 7vw;
+    width: 78vw;
+    height: 40vw;
+    border-radius: 8vw;
+  }
+  body main.main #info article img {
+    margin-left: 13vw;
+    margin-top: 2vw;
+    width: 50vw;
+    height: 35vw;
+  }
+  body main.main #info article h2 {
+    margin-top: 17vw;
+    margin-left: 2vw;
+    font-size: 9vw;
+  }
+  body main.main article {
+    margin: 4vw 3vw;
+    width: 87vw;
+    border-radius: 4vw;
+  }
+  body main.main article img {
+    width: 87vw;
+  }
+  body main.main #information {
+    font-size: 5.5vw;
+  }
+  body main.main #information h1 {
+    font-size: 7vw;
+  }
+  body main.main #information #system {
+    font-size: 6vw;
+    line-height: 10vw;
+  }
+  body main.main #information #system img {
+    margin-top: 3vw;
+    margin-bottom: 6vw;
+    width: 80vw;
+    height: 99vw;
+  }
+  body main.main #information #image1 img {
+    width: 84vw;
+    height: 50vw;
+  }
+  body main.main #information button {
+    border-radius: 4vw;
+  }
+  body main.main #information button a {
+    font-size: 6vw;
+  }
+  body main.main #information #download {
+    width: 45vw;
+    height: 13vw;
+    line-height: 8vw;
+    border-radius: 8vw;
+    font-size: 7vw;
+    padding: 3vw;
+  }
+  body main.main #information #repack_1, body main.main #information #repack_2, body main.main #information #repack_3, body main.main #information #repack_dead_2, body main.main #information #repack_dont_1, body main.main #information #repack_oxg_1, body main.main #information #repack_stone_1, body main.main #information #repack_60s_1 {
+    float: none;
+    width: 88vw;
+    line-height: 8vw;
+    margin-bottom: 5vw;
+  }
+  body main.main #information #repack_1 h2, body main.main #information #repack_2 h2, body main.main #information #repack_3 h2, body main.main #information #repack_dead_2 h2, body main.main #information #repack_dont_1 h2, body main.main #information #repack_oxg_1 h2, body main.main #information #repack_stone_1 h2, body main.main #information #repack_60s_1 h2 {
+    font-size: 7vw;
+  }
+  body main.main #information #repack_1 li, body main.main #information #repack_2 li, body main.main #information #repack_3 li, body main.main #information #repack_dead_2 li, body main.main #information #repack_dont_1 li, body main.main #information #repack_oxg_1 li, body main.main #information #repack_stone_1 li, body main.main #information #repack_60s_1 li {
+    line-height: 10vw;
+    font-size: 6vw;
+  }
+  body main.main #information #how_to_download, body main.main #information #repack_inside_2, body main.main #information #torrent {
+    line-height: 8vw;
+  }
+  body main.main #information #how_to_download h2, body main.main #information #repack_inside_2 h2, body main.main #information #torrent h2 {
+    font-size: 7vw;
+  }
+  body main.main #information #how_to_download #game_you_1 li, body main.main #information #how_to_download #game_you_1 h2, body main.main #information #how_to_download #mehaniki li, body main.main #information #how_to_download #mehaniki h2, body main.main #information #how_to_download #game_you_2 li, body main.main #information #how_to_download #game_you_2 h2, body main.main #information #repack_inside_2 #game_you_1 li, body main.main #information #repack_inside_2 #game_you_1 h2, body main.main #information #repack_inside_2 #mehaniki li, body main.main #information #repack_inside_2 #mehaniki h2, body main.main #information #repack_inside_2 #game_you_2 li, body main.main #information #repack_inside_2 #game_you_2 h2, body main.main #information #torrent #game_you_1 li, body main.main #information #torrent #game_you_1 h2, body main.main #information #torrent #mehaniki li, body main.main #information #torrent #mehaniki h2, body main.main #information #torrent #game_you_2 li, body main.main #information #torrent #game_you_2 h2 {
+    float: none;
+    line-height: 10vw;
+    font-size: 6vw;
+  }
+  body main.main #information #repack_img img {
+    margin: 0%;
+    width: 86vw;
+    height: 45vw;
+  }
+  body main.main #information #trailer iframe {
+    float: none;
+    width: 87vw;
+    height: 56vw;
+    margin-bottom: 4vw;
+  }
+  body main.main #information #trailer h4 {
+    margin-left: 29vw;
+    font-size: 7vw;
+  }
+  body main.main #information h6 {
+    padding: 0;
+    margin: 0;
+    float: none;
+    text-align: center;
+    font-size: 7vw;
+    margin-bottom: 5vw;
+  }
+  body main.main #information #next {
+    padding: 0;
+    margin: 0;
+  }
+  body main.main #information #next img {
+    width: 87vw;
+    height: 50vw;
+  }
+}/*# sourceMappingURL=adaptiaon.css.map */

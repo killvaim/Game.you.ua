@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "node_modules/": true,
+    "yarn.lock": true,
+    "package-lock.json": true,
+    "**/*.css": true,
+    "**/*.css.map":true,
+  },
+  "liveServer.settings.port": 5501
+}

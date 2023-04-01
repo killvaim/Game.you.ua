@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="description" content="найкращі ігри на слабкий та середні пк">
+
+    <link rel="icon" href="/images/favicon.png"/>
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="/stylesheets/footer.css">
+    <link rel="stylesheet" href="/stylesheets/adaptiaon.css">
+    <link rel="stylesheet" href="/stylesheets/pages/{{ stylesheet }}.css">
+    <link rel="stylesheet" href="/stylesheets/{{ stylesheet }}.css">
+    
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/" id="logo">
+          <img src="images/logo.png" alt="logo">
+          <h1>ame.you</h1>
+        </a>
+        <ul>
+          <li><a href="/homeAndroid">Ігри на андроїд</a></li>
+          <li><a href="/video">Корисні відео</a></li>
+          <li><a href="/help">Підтримка</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      {{{ body }}}
+    </main>
+    
+    <footer>
+      <div id="footer-content">
+        <h3>Killvaim official</h3>
+
+        <p>
+          Сайт зроблений у цілях допомоги геймерам знайти щось до душі, навіть, коли немає крутезного заліза)) Якщо ви хочете більше ігор за нашими рекомендаціями підтримайте нас у зручному для вас вигляді. Способи підтримки будуть вказані нижче. Через ситуацію у нашій країні усі відправлені кошти підуть на допомогу ЗСУ.
+        </p>
+        
+        <h2>Слава</h2>
+
+        <h4>Україні!</h4>
+
+        <ul id="socials">
+          <li><a href="https://t.me/Killvaim_official_bot" target="_blank"><img src="/images/telegram.png" alt="t.me"></a></li>
+          <li><a href="https://www.instagram.com/_9krch.krl__/" target="_blank"><img src="/images/instagram.png" alt="inst"></a></li>
+          <li><a href="https://www.youtube.com/channel/UCeIZ9VNkJLemQL67jZTiOzg" target="_blank"><img src="/images/youtube.png" alt="youtube"></a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100082046961592"target="_blank"><img src="/images/facebook.png" alt="facebook"></a></li>
+          <li><a href="https://discord.gg/zgAaHYXh" target="_blank"><img src="/images/discord.png" alt="discord"></a></li>
+        </ul>
+
+        <div id="footer-bottom">
+          <p>copyright &copy;2022 <a href="/">killvaim official</a></p>
+
+          <div id="footer-menu">
+            <ul id="f-menu">
+              <li><a href="/">Home</a></li>
+              <li><a href="/help">About</a></li>
+
+              <li><a id="copy" class="copy">Contact</a>
+                  <p id="number">+380969812396</p>
+                  <div id="popup" class="popup"><h6>Скопійовано📋</h6></div>
+              </li>
+
+              <li><a href="https://www.facebook.com/profile.php?id=100082046961592">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const text = document.querySelector('.copy');
+      const popup = document.querySelector('.popup');
+
+      text.addEventListener('click', (event) =>{
+        popup.classList.add('active');
+        copyToClipboard();
+      });
+
+      popup.addEventListener('animationend', () => {
+        popup.classList.remove('active')
+      });
+
+      function copyToClipboard() {
+        const number = document.getElementById('number').textContent;
+        navigator.clipboard.writeText(number);
+        };
+    </script>
+  </body>
+</html>

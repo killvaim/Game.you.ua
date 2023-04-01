@@ -1,0 +1,10 @@
+@import "/stylesheets/games.css";
+#repack_dont_1 {
+  font-size: 1.4vw;
+  color: rgb(11, 0, 22);
+  line-height: 3vw;
+  list-style-type: none;
+}
+#repack_dont_1 #igruha {
+  float: right;
+}/*# sourceMappingURL=dontStarve.css.map */
